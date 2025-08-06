@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-import webservice.src.fake.creature as service
+import webservice.src.service.creature as service
 from webservice.src.model.creature import Creature
 
 router = APIRouter(prefix="/creature")

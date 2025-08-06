@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-import webservice.src.fake.explorer as service
+import webservice.src.service.explorer as service
 from webservice.src.model.explorer import Explorer
 
 router = APIRouter(prefix="/explorer")
